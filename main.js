@@ -1,4 +1,4 @@
-let dataTime = new Date("Dec 31, 2022 23:59:59 ").getTime();
+let dataTime = new Date("Dec 31, 2023 23:59:59 ").getTime();
 let countes = setInterval(() => {
   let dataNew = new Date().getTime();
   let dateDiff = dataTime - dataNew;
